@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="mx-auto display-3 text-center fw-bold ">🍔FOOOD SHOP🍟</h2>
+    <div class="container">
+        <marquee class="display-5 fw-bold" direction="">🍕🍰FOOD SHOP🍰🍕</marquee>
+        <div class="row">
+            <div class="col-lg-8 mx-auto mt-4">
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-success mx-2" type="button" id="addBtn" >ADD FOOD</button>
+                  </div>
+                  <ul class="list-group" id="parentList">
+                    <li class="list-group-item d-flex justify-content-between mt-2">
+                        <h2 class="flex-grow-1">CHICKEN TIKA</h2>
+                        <button class="btn btn-success">Read</button>
+                        <button class="btn btn-danger mx-2" onclick="removeFood(this)">Delete</button>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- js link -->
+     <script src="one.js"></script>
+     <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
